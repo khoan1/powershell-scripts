@@ -1,0 +1,60 @@
+# OS-specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+
+# Shell history
+.bash_history
+.zsh_history
+.history
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.env/           
+.venv/          
+*.env           
+Pipfile.lock
+poetry.lock
+
+# PowerShell generated files
+*.ps1xml
+*.pssc
+
+# Secrets or credentials
+*.key
+*.pem
+*.crt
+*.pfx
+*.cer
+*.env
+*.secrets
+*.credentials
+secrets/
+credentials/
+private/
+
+# Compiled binaries or output
+*.exe
+*.dll
+*.out
+*.o
+
+# Backup or temp editor files
+*~
