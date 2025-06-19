@@ -1,5 +1,5 @@
 ﻿# check-diskspace.ps1
-# This script will check all disk drives and will log only drives with less than 10% free space to a text file
+# This script will check all disk drives and logs only drives with less than 10% free space to a text file
 
 $threshold = 10                   # under 10% free space
 $logPath = ".\low-diskspace.log"  # this path can be changed if needed
