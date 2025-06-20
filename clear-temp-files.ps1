@@ -23,7 +23,7 @@ try {
 
     # if errors exist, send errors messages to log file
     if ($errors.Count -gt 0) {
-        Write-Output "    [-] Some files could not be deleted. See $logFile for details."
+        Write-Output "    [!] Some files could not be deleted. See $logFile for details."
         $errors | Out-File -FilePath $logFile -Append
     } else {
         Write-Output "    [O] Windows Temp cleared."
@@ -60,7 +60,7 @@ foreach ($user in $userProfiles) {
 
             # if errors exist, send errors messages to log file
             if ($errors.Count -gt 0) {
-                Write-Output "    [-] Some files could not be deleted for user $($user.Name). See $logFile for details."
+                Write-Output "    [!] Some files could not be deleted for user $($user.Name). See $logFile for details."
                 $errors | Out-File -FilePath $logFile -Append
             } else {
                 Write-Output "    [O] Temp cleared for user: $($user.Name)"
