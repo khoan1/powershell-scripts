@@ -20,7 +20,7 @@ $events = Get-WinEvent -FilterHashtable @{
 if ($events.Count -eq 0) {
     Write-Output "[O] No critical or error events found in the last 24 hours."
 } else {
-    Write-Output "[X] Found $($events.Count) events:"
+    Write-Output "[!] Found $($events.Count) events:"
 
     # Display events info on screen in table format
     $events | Select-Object TimeCreated, Id, LevelDisplayName, Message |
