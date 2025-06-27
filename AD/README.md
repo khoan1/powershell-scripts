@@ -1,3 +1,5 @@
+## Active Directory (AD) Scripts
+
 Scripts are organized into folders based on their function:
 
 • AD Structure – scripts for user management and organizational unit (OU) structure
