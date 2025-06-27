@@ -1,5 +1,5 @@
 # PowerShell Scripts
-This repository contains a collection of scripts designed to automate common system administration tasks. The scripts are written in PowerShell and can be used on Windows environments. The scripts are grouped by functionality, including Active Directory (AD), Domain Name System (DNS), Dynamic Host Configuration Protocol (DHCP), and general Client-side tasks. Each folder contains scripts designed for specific sysadmin use cases.
+This repository contains a collection of scripts designed to automate common system administration tasks. The scripts are written in PowerShell and intended for use in Windows environments. They are grouped by functionality, including Active Directory (AD), Domain Name System (DNS), Dynamic Host Configuration Protocol (DHCP), and general client-side tasks. Each folder contains scripts designed for specific sysadmin use cases.
 
 • AD – Scripts related to Active Directory (user management, OU structure, logon policies).
 
