@@ -1,4 +1,4 @@
-## Active Directory (AD) Scripts
+# Active Directory (AD) Scripts
 
 Scripts are organized into folders based on their function:
 
