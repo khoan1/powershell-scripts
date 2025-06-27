@@ -1,4 +1,4 @@
-## AD Structure
+# AD Structure
 
 This folder includes PowerShell scripts for setting up Active Directory structure and creating user accounts.
 
